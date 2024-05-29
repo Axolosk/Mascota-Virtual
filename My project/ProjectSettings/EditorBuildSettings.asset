@@ -5,8 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Match target.unity
     guid: f5fc9541f61b6a94fa1552cf220dd17d
+  - enabled: 1
+    path: Assets/Scenes/MAYATRACK.unity
+    guid: adcbaac0a566f374a9c166ac8e9c1ef4
   m_configObjects:
     EasyAR.Settings: {fileID: 11400000, guid: 08cd77ad642f5314f9a977b262a9133a, type: 2}
