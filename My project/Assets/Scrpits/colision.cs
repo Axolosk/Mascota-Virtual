@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class colision : MonoBehaviour
 {
@@ -10,10 +12,10 @@ public class colision : MonoBehaviour
     // Nombre del trigger en el Animator
     public string triggerName = "TriggerAnimation";
 
-    // Método llamado cuando comienza una colisión
+    // Mï¿½todo llamado cuando comienza una colisiï¿½n
     private void OnCollisionEnter(Collision collision)
     {
-        // Comprueba si el objeto con el que ha colisionado tiene un tag específico (opcional)
+        // Comprueba si el objeto con el que ha colisionado tiene un tag especï¿½fico (opcional)
         if (collision.gameObject.CompareTag("OtherObject"))
         {
             // Activa el trigger en el Animator
@@ -21,16 +23,18 @@ public class colision : MonoBehaviour
         }
     }
 
-    // Método llamado cuando un collider entra en el trigger (en caso de usar triggers en lugar de colisiones)
+    // Mï¿½todo llamado cuando un collider entra en el trigger (en caso de usar triggers en lugar de colisiones)
     private void OnTriggerEnter(Collider other)
     {
-        // Comprueba si el objeto que ha entrado en el trigger tiene un tag específico (opcional)
+        // Comprueba si el objeto que ha entrado en el trigger tiene un tag especï¿½fico (opcional)
         if (other.CompareTag("OtherObject"))
         {
             // Activa el trigger en el Animator
             animator.SetTrigger(triggerName);
         }
     }
+
+   
 }
 
 
