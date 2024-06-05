@@ -10,4 +10,4 @@ debes entrar a
 https://mega.nz/folder/hiVnnRKI#nu11CsgYbGTW0uf__i6i5A
 donde ya estara dicho APK, con un breve video de lo que se a avanzado hasta el momento
 
-Despues de descargarlo debes darle permisos a camara para que el entorno pueda ser trackeado
+Despues de descargarlo debes darle permisos a camara para que el entorno pueda ser trackeado.
